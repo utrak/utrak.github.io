@@ -1,0 +1,353 @@
+#background{
+height:750px;
+width:1275px;
+margin-left:-10px;
+
+}
+
+#phoneapp{
+height:580px;
+width:350px;
+margin-left:800px;
+margin-top:-700px;
+margin-bottom:300px;
+}
+
+#utrak{
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+font-weight: 50;
+color: black;
+font-size:40px;
+position:absolute;
+margin-top:30px;
+margin-left:205px;
+}
+
+#contact{
+text-decoration:none;
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: black;
+font-size:15px;
+position:absolute;
+margin-top:55px;
+margin-left:910px;
+}
+
+#about{
+text-decoration:none;
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: black;
+font-size:15px;
+position:absolute;
+margin-top:55px;
+margin-left:825px;
+}
+
+#download{
+text-decoration:none;
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: black;
+font-size:15px;
+position:absolute;
+margin-top:55px;
+margin-left:1025px;
+}
+
+#contact:hover{
+text-decoration:underline;
+}
+
+#about:hover{
+text-decoration:underline;
+}
+
+#download:hover{
+text-decoration:underline;
+}
+
+#slogan{
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+font-weight: 50;
+color: white;
+font-size:70px;
+position:absolute;
+margin-top:-650px;
+margin-left:200px;
+width:400px;
+}
+
+#appstore-orange{
+position:absolute;
+margin-top:-300px;
+margin-left:200px;
+width:325px;
+height:95px;
+}
+
+#appstore-blue{
+position:absolute;
+margin-top:-375px;
+margin-left:200px;
+width:265px;
+height:90px;
+}
+
+#topbar{
+height:100px;
+width:1275px;
+background-color:#F7F7F7;
+margin-top:-10px;
+margin-left:-10px;
+}
+
+#abouttoptext{
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+font-weight: 50;
+color: black;
+font-size:50px;
+position:absolute;
+margin-left:480px;
+}
+
+#stepone{
+height:70px;
+width:70px;
+position:absolute;
+margin-left:235px;
+margin-top:170px;
+}
+
+#line1{
+position:absolute;
+background-color:black;
+width:1px;
+height:200px;
+margin-left:460px;
+margin-top:250px;
+}
+
+
+#steptwo{
+position:absolute;
+height:70px;
+width:70px;
+margin-left:600px;
+margin-top:170px;
+}
+
+#line2{
+position:absolute;
+background-color:black;
+width:1px;
+height:200px;
+margin-top:250px;
+margin-left:810px;
+}
+
+#stepthree{
+position:absolute;
+height:70px;
+width:70px;
+margin-top:170px;
+margin-left:945px;
+}
+
+#enter{
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+font-weight: 50;
+color: black;
+font-size:40px;
+position:absolute;
+margin-top:275px;
+margin-left:230px;
+}
+
+#finish{
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+font-weight: 50;
+color: black;
+font-size:40px;
+position:absolute;
+margin-top:275px;
+margin-left:590px;
+}
+
+#analyze{
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+font-weight: 50;
+color: black;
+font-size:40px;
+position:absolute;
+margin-top:275px;
+margin-left:920px;
+}
+
+#entertext{
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: black;
+font-size:20px;
+position:absolute;
+margin-top:350px;
+margin-left:195px;
+width:200px;
+}
+
+#finishtext{
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: black;
+font-size:20px;
+position:absolute;
+margin-top:350px;
+margin-left:520px;
+width:250px;
+}
+
+#analyzetext{
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: black;
+font-size:20px;
+position:absolute;
+margin-top:350px;
+margin-left:870px;
+width:250px;
+}
+
+#hline1{
+position:absolute;;
+height:1px;
+width:890px;
+margin-left:200px;
+background-color:#CFCFCF;
+margin-top:525px;
+}
+
+#usefulgraphics{
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+font-weight: 50;
+color: black;
+font-size:50px;
+position:absolute;
+margin-left:195px;
+margin-top:575px;
+}
+
+#statisticscreenshot{
+height:500px;
+width:270px;
+position:absolute;
+margin-left:800px;
+margin-top:590px;
+}
+
+
+#whiteback{
+background-color:white;
+width:1275px;
+height:1175px;
+margin-left:-10px;
+margin-top:-188px
+}
+
+#contacttoptext{
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+font-weight: 50;
+color: white;
+font-size:35px;
+position:absolute;
+margin-left:475px;
+}
+
+#contactslogan{
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: white;
+font-size:20px;
+position:absolute;
+margin-top:100px;
+margin-left:400px;
+}
+
+#UT{
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: white;
+font-size:30px;
+position:absolute;
+margin-left:270px;
+margin-top:195px;
+}
+
+#line3{
+position:absolute;
+background-color:white;
+width:1px;
+height:125px;
+margin-left:640px;
+margin-top:195px;
+}
+
+#AS{
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: white;
+font-size:30px;
+position:absolute;
+margin-left:790px;
+margin-top:195px;
+}
+
+#uemail{
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: white;
+font-size:20px;
+position:absolute;
+margin-left:250px;
+margin-top:250px;
+}
+
+#aemail{
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: white;
+font-size:20px;
+position:absolute;
+margin-left:750px;
+margin-top:250px;
+}
+
+#copyright{
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+font-weight: 50;
+color: white;
+font-size:15px;
+position:absolute;
+margin-top:400px;
+margin-left:595px;
+}
+
+#greyback{
+position:absolute;
+background-color:#a2aaad;
+width:1275px;
+height:460px;
+margin-left:-10px;
+}
+
+#explanation{
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: black;
+font-size:20px;
+position:absolute;
+margin-top:650px;
+margin-left:195px;
+width:500px;
+line-height:35px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="utrak.css"/>
+		<title>uTrak</title>
+		<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+		
+		<script>
+			$(function() {
+				//catch all clicks
+				$("a").click(function() {
+					//check for a hash
+					if(this.hash){
+						//get rid of the # sign
+						var hash = this.hash.substr(1);
+				
+						//get the position of the <a name>
+						var $toElement = $("a[name="+hash+"]");
+						var toPosition = $toElement.position().top;
+				
+						//scroll/animate to that element
+						$("body,html").animate({
+							scrollTop : toPosition
+						},1500,"easeOutExpo");
+				
+						//don't do the jump
+						return false;
+					}
+				});
+			});
+		
+		</script>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	</head>
+	<body>
+	<div id="topbar">
+	<p id= "utrak">uTrak</p>
+	<!--<a href="http://www.atpworldtour.com/"><p id="contact">CONTACT US</p></a>-->
+	<!--<a href="http://www.atpworldtour.com/"><p id="about">ABOUT</p></a>-->
+	<a href="http://www.atpworldtour.com/"><p id="download">DOWNLOAD</p></a>
+	<a href="#aboutanchor"><p id="about">ABOUT</p></a>
+	<a href="#contactusanchor"><p id="contact">CONTACT US</p></a>
+	</div>
+	<img id="background" src="citycircles.jpg"/>
+	<p id="slogan">Your Time, Spent Wisely.</p>
+	<!--<a href="http://www.atpworldtour.com/"><img id="appstore-orange" src ="app-store_orange.png"/></a>-->
+	<a href="http://www.atpworldtour.com/"><img id="appstore-blue" src ="appstoreblue.png"/></a>
+	<img id="phoneapp" src ="utrakonphone.png"/>
+	<div id="whiteback">
+		<p id="abouttoptext">3 Simple Steps</p>
+		<img id="stepone" src="StepOne.png"/>
+		<div id="line1"></div>
+		<img id="steptwo" src="StepTwo.png"/>
+		<div id="line2"></div>
+		<img id="stepthree" src="StepThree.png"/>
+		<p id="enter">Enter.</p>
+		<p id="finish">Finish.</p>
+		<p id="analyze">Analyze.</p>
+		<p id="entertext">Enter events as you complete them.</p>
+		<p id="finishtext">Finish and submit your day with a click of a button.</p>
+		<p id="analyzetext">Analyze your day with a graphical representation.</p>
+		<div id="hline1"></div>
+		<a name="aboutanchor"></a>
+		<p id="usefulgraphics">Useful Graphics</p>
+		<p id="explanation">After finishing your day all the events and times are organized into a beautiful graphic. It compares your time in the three main categories to an ideal ratio on how you should spend your day. Gradually you can work towards your goal of have an ideal day every single day.</p>
+		<img id="statisticscreenshot" src="statistic.png"/>
+	</div>
+	<div id= "greyback">
+		<p id="contacttoptext">Questions? Feedback?</p>
+		<p id="contactslogan">Contact either one of us. We'd love to here from you!</p>
+		<p id="UT">Utkarsh Tandon</p>
+		<div id="line3"></div>
+		<p id="AS">Arjun Sripathy</p>
+		<p id="uemail">utkarsh.tandon1@gmail.com</p>
+		<p id="aemail">arjun.sripathy2000@gmail.com</p>
+		<p id="copyright">&copy; 2014 uTrak</p>
+	</div>
+	<a name="contactusanchor"></a>
+	</body>
+</html>
