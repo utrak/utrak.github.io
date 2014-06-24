@@ -1,3 +1,13 @@
+body {
+  text-align: center;
+}
+
+#page-wrap {
+  text-align: left;
+  width: 1250px;
+  margin: 0 auto;
+}
+
 #background{
 height:750px;
 width:1275px;
@@ -56,6 +66,19 @@ margin-top:55px;
 margin-left:1025px;
 }
 
+#toTop{
+text-decoration:none;
+font-family:"OpenSans-Light";
+font-weight: 50;
+color: red;
+font-size:15px;
+position:fixed;
+margin-top:55px;
+margin-left:1025px;
+z-index:1;
+display:none;
+}
+
 #contact:hover{
 text-decoration:underline;
 }
@@ -102,6 +125,7 @@ background-color:#F7F7F7;
 margin-top:-10px;
 margin-left:-10px;
 }
+
 
 #abouttoptext{
 font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
