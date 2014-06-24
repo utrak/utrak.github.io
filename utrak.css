@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px){
 
 body {
   text-align: center;
@@ -376,4 +376,6 @@ margin-top:650px;
 margin-left:195px;
 width:500px;
 line-height:35px;
+}
+
 }
