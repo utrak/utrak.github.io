@@ -35,7 +35,7 @@ margin-left:205px;
 
 #contact{
 text-decoration:none;
-font-family:"OpenSans-Light";
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 font-weight: 50;
 color: black;
 font-size:15px;
@@ -46,7 +46,7 @@ margin-left:910px;
 
 #about{
 text-decoration:none;
-font-family:"OpenSans-Light";
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 font-weight: 50;
 color: black;
 font-size:15px;
@@ -57,7 +57,7 @@ margin-left:825px;
 
 #download{
 text-decoration:none;
-font-family:"OpenSans-Light";
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 font-weight: 50;
 color: black;
 font-size:15px;
@@ -68,7 +68,7 @@ margin-left:1025px;
 
 #toTop{
 text-decoration:none;
-font-family:"OpenSans-Light";
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 font-weight: 50;
 color: red;
 font-size:15px;
@@ -288,7 +288,7 @@ margin-left:475px;
 }
 
 #contactslogan{
-font-family:"OpenSans-Light";
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 font-weight: 50;
 color: white;
 font-size:20px;
@@ -317,7 +317,7 @@ margin-top:195px;
 }
 
 #AS{
-font-family:"OpenSans-Light";
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 font-weight: 50;
 color: white;
 font-size:30px;
@@ -327,7 +327,7 @@ margin-top:195px;
 }
 
 #uemail{
-font-family:"OpenSans-Light";
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 font-weight: 50;
 color: white;
 font-size:20px;
@@ -337,7 +337,7 @@ margin-top:250px;
 }
 
 #aemail{
-font-family:"OpenSans-Light";
+font-family:"HelveticaNeue-UltraLight","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
 font-weight: 50;
 color: white;
 font-size:20px;
